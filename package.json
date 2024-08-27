@@ -2,12 +2,11 @@
   "name": "simple-apps",
   "version": "1.0.0",
   "description": "Training DevOps Simple Apps",
-  "main": "index.js",
   "scripts": {
     "dev": "nodemon app",
     "start": "node app",
     "test": "jest --forceExit testing/",
-    "test:coverage": "jest --coverage testing/"
+    "test:coverage": "jest --forceExit--coverage  testing/"
   },
   "author": "Moch Rafi Riadi",
   "license": "ISC",
