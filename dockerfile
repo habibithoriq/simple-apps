@@ -1,5 +1,4 @@
-FROM node:18.20.0-slim
+FROM zaxrmdn/simple-apps
 WORKDIR /app
 ADD . .
-RUN npm install 
 CMD npm start 
