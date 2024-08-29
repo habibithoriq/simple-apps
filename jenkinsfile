@@ -44,10 +44,11 @@ tools {
                 cd app
                
                 sonar-scanner \
-  -Dsonar.projectKey=server-testing-jenkins \
+  sonar-scanner \
+  -Dsonar.projectKey=sonar_jenkis \
   -Dsonar.sources=. \
   -Dsonar.host.url=http://172.23.10.10:9000 \
-  -Dsonar.token=sqp_d2f0a3f55507916d457bbb282427a127cb806a06
+  -Dsonar.login=sqp_9242526f46b5781a3bbf41ce8bbef0702565f25b
             }
         }
         
